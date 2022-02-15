@@ -7,7 +7,8 @@
 #page2{
     font-size: large;
     background-color: #0e41b8 ;
-    border-radius: 0px; 
+    border-radius: 0px;
+    color: white; 
 }
 #page3{
     font-size: large;
@@ -23,4 +24,51 @@
 }
   #main-nav>a:hover{
     box-shadow: 0px 1px 0px 0px #0e41b8;
+}
+#main-div{
+    margin: 5px;
+}
+.nav-pills .nav-link {
+    background-color: #ffbb00;
+    color: #0e41b8;
+    border-radius: 5px;
+    font-size: large;
+    font-weight:400;
+}
+.nav-pills .nav-link.active {
+    color: white;
+    background-color: #0e41b8;
+}
+.tab-content {
+    border: 0px solid #dee2e6;
+    border-top: transparent;
+    padding: 15px;
+}
+.tab-content .tab-pane {
+    background-color: #fff;
+    color: #0e41b8;
+    border-radius: 0px;
+}
+button{
+    margin: 4px;
+    max-width: 150px;
+}
+button:active{
+    box-shadow: 1.2px 1px 5px .1px rgb(0,0,0,.3);
+}
+.btn{
+    border: none;
+    background-color: #013809;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #00610f;
+}
+.overflow-auto{
+    overflow: auto;
+    height: 700px;
 }
