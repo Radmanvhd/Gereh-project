@@ -25,6 +25,12 @@
 #main-nav>a:hover{
     box-shadow: 0px 1px 0px 0px #0e41b8;
 }
+#min-div{
+    margin-left: 100px;
+}
+#main-div{
+    margin-left: 110px;
+}
 
 #main-div > a{
       margin: 3px;
