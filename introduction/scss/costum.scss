@@ -26,13 +26,14 @@ $card-border-width: 0;
 }
 @font-face {
     font-family: oldper;
-    src: url("../src/oldstyle.TTF");
+    src: url("../src/Far.Beirut.ttf");
 }
 * { 
     font-size: 1.2rem;
 }
 
 .theme {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     font-family: per;
     font-weight: bold;
     background: $color-dark;
@@ -451,6 +452,7 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
     color: white;
 }
 .ls-5 {
+    box-shadow: rgb(255, 190, 11 , 0.4)  -5px 5px, rgb(255, 190, 11 , 0.3) -10px 10px, rgb(255, 190, 11 , 0.2) -15px 15px, rgb(255, 190, 11 , 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
     font-family: oldper;
     word-spacing: 3px;
     margin-top: 15px;
@@ -472,6 +474,7 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
     font-family: oldper;
     padding-top: 70px;
     padding-right: 20px ;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 50em) {
@@ -502,6 +505,8 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
     margin-bottom:0;
 }
 .footer-basic li {
+    font-family: per;
+    word-spacing: 2px;
     padding:0 10px;
 }
 .footer-basic ul a {
