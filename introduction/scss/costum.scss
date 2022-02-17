@@ -26,7 +26,7 @@ $card-border-width: 0;
 }
 @font-face {
     font-family: oldper;
-    src: url("../src/Far.Beirut.ttf");
+    src: url("../src/Ordibehesht.TTF");
 }
 * { 
     font-size: 1.2rem;
@@ -452,6 +452,7 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
     color: white;
 }
 .ls-5 {
+    margin-right: 20px;
     box-shadow: rgb(255, 190, 11 , 0.4)  -5px 5px, rgb(255, 190, 11 , 0.3) -10px 10px, rgb(255, 190, 11 , 0.2) -15px 15px, rgb(255, 190, 11 , 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
     font-family: oldper;
     word-spacing: 3px;
@@ -461,9 +462,6 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
     color: white;
     float: right;
     clear: both;
-}
-.row {
-    justify-content: center;
 }
 .six {
     display: flex;
@@ -477,7 +475,7 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
     overflow: hidden;
 }
 
-@media screen and (max-width: 50em) {
+@media screen and (max-width: 70em) {
     .ls-4 {
         width: 80vw;
     }
@@ -491,6 +489,15 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
         height: 100%;
     }
 }
+
+.card-body {
+    background: #000000f3;
+}
+.row {
+    justify-content: center;
+    color: white;
+}
+
 .footer-basic {
     padding:40px 0;
     background:#000000f3;
