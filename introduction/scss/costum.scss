@@ -415,6 +415,7 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
     border-radius: 8px;
 }
 .ls-4 {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     font-family: oldper;
     word-spacing: 3px;
     color: $color-light;
@@ -425,7 +426,7 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
     clear: both;
     display: inline;
     width: 45vw;
-    height: 10vh;
+    background: radial-gradient(circle, rgba(18,78,120,0.7777777777777778) 0%, rgba(18,78,120,0.768888888888889) 100%);
     float: right;
 }
 .ls-4 li {
